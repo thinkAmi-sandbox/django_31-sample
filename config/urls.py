@@ -18,4 +18,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('silence/', include('silence_app.urls')),
 ]
